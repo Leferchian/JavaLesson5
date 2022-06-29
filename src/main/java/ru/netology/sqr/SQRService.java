@@ -1,7 +1,7 @@
 package ru.netology.sqr;
 
 public class SQRService {
-    public long Square(long lowerBound, long upperBound) {
+    public long square(long lowerBound, long upperBound) {
         long result = 0;
         for (long side = 10;side<=99;side++ ){
             if (side*side>=lowerBound) {
@@ -9,7 +9,6 @@ public class SQRService {
                     result++;
                 }
             }
-
         }
         return (result);
     }

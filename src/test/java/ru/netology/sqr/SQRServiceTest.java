@@ -14,7 +14,7 @@ class SQRServiceTest {
     void positiveTest(String name, long lowerBound, long upperBound, long expected) {
         SQRService service = new SQRService();
 
-        long actual = service.Square(lowerBound, upperBound);
+        long actual = service.square(lowerBound, upperBound);
         assertEquals(expected, actual);
 
     }
